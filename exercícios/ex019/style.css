@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+    Em HTML id = em CSS é #
+    Em HTML class = em é CSS .
+
+    Só pode ter um id por página
+    não classifique id e class pela forma e sim pela funcionalidade
+
+    consegue por numa configuração id e classes juntas pórem id sobrepoem classe
+
+    mais de uma classe fica assim class="avancado destaque"
+    id="principal" class="destaque"
+*/
+body {
+    background-color: #a7d5ee;
+    font-family: Arial, Helvetica, sans-serif;
+    /*margin: 20px;
+    color: #333333;*/
+}
+h1{
+    color: #3985AD;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #3985AD ;
+}
+h2{
+    color: #235169;
+}
+.basico{
+    color: #236935;
+    font-weight: bold;
+}
+.intermediario{
+    color: #686923;
+}
+.avancado{
+    color: #692323;
+}
+.destaque{
+    background-color: #c5c56070;
+    
+}

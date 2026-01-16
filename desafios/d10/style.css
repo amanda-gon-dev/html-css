@@ -1,0 +1,119 @@
+@charset "UTF-8";
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, html{
+    /*background-image: linear-gradient(to left,#3EB350, #339141, #276F31);cor cabeçalho*/
+    background-image: linear-gradient(to right,#56F66E, #5AFF73);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    background-image: linear-gradient(to right,#5AFF73, #339141);
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    color: white;
+
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Anroid', sans-serif;
+}
+ nav{
+            
+            
+            text-align: left;
+            margin: 20px 0;
+        }
+        nav > a{
+            
+            text-decoration: none;
+            color: #a8f8b4;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+main{
+    background-color: white;
+    box-shadow: 5px 5px 15px #45541487;
+    width: 900px; /*largura*/
+    padding: 10px;
+    margin: auto; 
+}
+article > p {
+    text-indent: 30px;/*espaçamento no inicio do paragrafo*/
+}
+picture{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente (se a picture tiver altura) */
+    width: 100%;
+}
+picture > img{
+    max-width: 100%;
+    height: auto;     
+   
+}
+div{
+    background-color: #339141;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 900px; /*largura*/
+    
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin : auto;
+    border: none;
+
+    
+}
+footer{
+    background-color: #1a4a21;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%; /*largura*/
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin : auto;
+    border: none;
+
+   
+}
+.paragrafo{
+    background-color: rgb(98, 236, 169);
+    color: white;
+    font-weight: bold;
+    text-indent: 15px;
+    margin: -20px;                /* O segredo: remove o espaço que o <p> cria sozinho */
+    padding: 10px 20px;       /* Espaço interno para o texto não colar na borda */
+    text-align: left;         /* Texto à esquerda */
+    width: 900px;
+
+}
+.cor-caixa{
+    background-color: white;
+    height: 450px;
+}
+.tabela{
+    background-color: rgb(167, 236, 183);
+    width: 839px;
+    height: 409px;
+    border-radius: 10px;
+    overflow: hidden;         
+    display: block;
+}
+.texto{
+    display: flex;
+    flex-direction: column; /* Faz um ficar embaixo do outro */
+    align-items: flex-start;
+}
